@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "allowJs": false,
+    "strictPropertyInitialization": false,
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*",
+    "src/knexfile.mjs"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
