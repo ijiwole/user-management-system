@@ -5,13 +5,12 @@
   "description": "User management and post backend system",
   "main": "dist/index.ts",
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "npx tsx src/index.ts",
     "start:dev": "nodemon --exec tsx src/index.ts",
     "build": "tsc",
     "migrate": "knex migrate:latest --knexfile src/knexfile.mjs",
     "rollback": "knex migrate:rollback --knexfile src/knexfile.mjs",
     "seed": "knex seed:run --knexfile src/knexfile.mjs",
-    "test": "jest --config jest.config.js",
     "lint": "eslint src --ext .ts"
   },
   "author": "Ijiwole Adedamola",
@@ -35,8 +34,6 @@
     "eslint": "^9.21.0",
     "jest": "^29.7.0",
     "nodemon": "^3.1.9",
-    "supertest": "^7.0.0",
-    "ts-jest": "^29.2.6",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
