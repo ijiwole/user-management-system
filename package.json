@@ -8,6 +8,7 @@
     "dev": "npx tsx src/index.ts",
     "start:dev": "nodemon --exec tsx src/index.ts",
     "build": "tsc",
+    "start": "node dist/index.js",
     "migrate": "knex migrate:latest --knexfile src/knexfile.mjs",
     "rollback": "knex migrate:rollback --knexfile src/knexfile.mjs",
     "seed": "knex seed:run --knexfile src/knexfile.mjs",
