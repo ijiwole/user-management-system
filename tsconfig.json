@@ -10,10 +10,13 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "noImplicitAny": true,
-    "allowJs": false,
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": false,
     "strictPropertyInitialization": false,
-    "sourceMap": true
+    "sourceMap": true,
+    "noEmit": false,
+    "types": ["node"]
   },
   "include": [
     "src/**/*",

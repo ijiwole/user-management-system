@@ -1,6 +1,6 @@
-declare module "../knexfile.mjs" {
-    import { Knex } from "knex";
-    const knexConfig: { [key: string]: Knex.Config };
-    export default knexConfig;
-  }
-  
+import { Knex } from 'knex';
+
+declare module 'knexfile' {
+  const config: { [key: string]: Knex.Config };
+  export default config;
+}
