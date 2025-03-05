@@ -16,6 +16,7 @@
     "strictPropertyInitialization": false,
     "sourceMap": true,
     "noEmit": false,
+    "lib": ["ES2022", "DOM"]
   },
   "include": [
     "src/**/*",
