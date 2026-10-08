@@ -3,4 +3,6 @@
 /build
 /dist
 .idea
-config.bat
+.vscode
+
+.env
